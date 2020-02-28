@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+html {
+	font-size: 100%;
+	max-width: 100%;
+}
+
+body {
+	/*background-color: rgba(39,32,32,1.00);*/
+	/*color: aqua;*/
+}
+
+@media screen and (max-width: 576px) { 
+	h1 
+	{ 
+		font-size : 20px; 
+ } 
+ 	.aside {
+		display: none;
+	}
+} 
+	
+ 
+	
+@media screen and (max-width: 768px) { 
+	
+    h1 
+	
+    { 
+	
+        font-size : 40px; 
+	
+    } 
+	
+}     
+.title {
+	text-align: center;
+	color: rgba(8,93,155,1.00);
+	
+}
+.main {
+	float: left;
+	width:70%;
+}
+
+.menu {
+	
+	color: aqua;
+	background: #090606;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	word-spacing: 280px;
+	
+}
+
+ul li {
+	list-style-type: none;
+	text-align: center;
+}
+
+a {
+	text-decoration-line:none;
+	color: aqua;
+}
+
+#Top_title {
+	text-align: center;
+}
+#Icon {
+}
+.Jairdin{
+	align-content: center;
+	text-align: center;
+}
+#Jardi {
+	position: sticky absolute;
+	align-content: center;
+}
+    table, tr, td, th 
+	
+    { 
+	
+       border: 1px solid #000000;
+		text-align: center;
+	
+    }
+
+.right{
+	float: right;
+	text-align: right;
+}
+.promo {
+	width: 100%;
+	padding-top: 2px;
+}
+
+/*.help a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}*/
+
+.asde {
+	vertical-align: middle;
+}
+.aside {
+    float: left;
+	width: 30%;
+	height: 370px;
+	max-height: 100%
+	color: black;
+	background-color:rgba(54,42,42,1.00);
+}
+
+#aside_image {
+	position: relative;
+	left: 40em;
+}
+
+ /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+	padding-top: 1px;
+  text-decoration: none;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.updown {
+	position: relative;
+	width: 30px;
+	float: right;
+}
+figure {
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
