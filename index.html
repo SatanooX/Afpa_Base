@@ -1,47 +1,89 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Jarditou</title>
-<link href="Css/css.css" type="text/css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Jarditou</title>
+	<link href="Css/Style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-        <header>
-            <figure>
-                <img src="Images/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou" width="250px">
-                <figcaption>La qualité depuis 70 ans</figcaption>
-            </figure>
-        </header>
+		
+	
+	<figure style="width: 100%">
+		<img src="Images/jarditou_logo.jpg" alt="Logo Jarditou" width="290" title="Logo Jarditou" class="asde">
+		<span id="aside_image">Ok</span>
+	</figure>
+	
+	
+																		<!-- Menu -->
+																		
+<div id="navbar" >
+	<ul>
+  		<li><a href="index.html">Home</a></li>
+  		<li><a href="Tables.html">Tableau</a></li>
+  		<li><a href="Form.html">Contact</a></li>
+	</ul>
+</div>
+	
+		<img src="Images/promotion.jpg" alt="Jrditou" title="Jarditou" class="promo"> 
+																	
+		<h1>Accueil</h1><hr>
+	
+</div>		
+<div class="main">
+		<header>	
+			<h3>L'entreprise</h3>
+		</header>
+	
+		<p>Notre entreprise familiale met tous son savoir-faire à votre disposition dans le domaine du jardin et du paysagisme.</p>
+		<p>Crée il ya70 ans, notre entreprise vend fleurs, arbustes, matériel à main et motorisés.</p>
+		<p>Implantés à Amiens, nous intervenons dans tout le départements de la somme : Albert, Doullens, Péronne, Abbeville, Corbie.</p>
+															
+		 
+		<h3>Qualités</h3>
+			<p>Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur durant tout votre projet.</p>
+			<p>Vous serez séduit par notre expertise, nos compétences et notre sérieux.</p>
+		
+		<h3>Devis Gratuit</h3>
+			<p>
+				Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d’intervention. Vous souhaitez un devis ? Nous vous le réalisons gratuitement.
+			</p>
+		</div>
+			<div id="aside">
+		<aside class="aside">[Colonne]</aside>
+	</div>
+		<hr>
+	<script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Tableau</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-<img src="Images/promotion.jpg" alt="Logo" width="100%">
-        <section>
-            <h2>Accueil</h2><hr>
-                <article>
-                    <h4>L'entreprise</h4>
-                    <p>Notre entreprise familiale met tous son savoir-faire à votre disposition dans le domaine du jardin et du paysagisme. Crée il ya 70 ans, notre entreprise vend fleurs, arbustes, matériel à main et motorisés. Implantés à Amiens, nous intervenons dans tout le départements de la somme : Albert, Doullens, Péronne, Abbeville, Corbie </p>
-                    
-                    <h4>L'entreprise</h4>
-                    <p>Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur durant tout votre projet. Vous serez séduit par notre expertise, nos compétences et notre sérieux.  </p>
-                    
-                    <h4>Devis Gratuit</h4>
-                    <p>Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d’intervention. Vous souhaitez un devis ? Nous vous le réalisons gratuitement.  </p>
-                    <hr>
-                </article>
-        </section>
-        <footer>
-            <ul>
-                <li><a href="#">Mentions legales</a></li>
-                <li><a href="#">Horaires</a></li>
-                <li><a href="#">Plan du site</a></li>
-            </ul>
-        </footer>
-</body>
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} </script>
+																<!-- Footer -->
+	
+		<footer>
+			<div id="navbar">
+	<ul>
+  		<li><a href="#">Mentions légales</a></li>
+  		<li><a href="#">Horaires</a></li>
+  		<li><a href="#">Plan du site</a></li>
+	</ul>
+</div>
+		</footer>	
+																	
+		
+		
+	</body>
 </html>
