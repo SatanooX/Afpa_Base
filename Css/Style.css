@@ -163,3 +163,69 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.list_menu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+}
+.list_menu li {
+	float: left;
+}
+.list_menu li a {
+	padding: 16px;
+	display: block;
+	color: wheat;
+	text-decoration: none; 
+}
+.list_menu li a:hover {
+	color: white;
+	background-color:#232222;
+}
+.footer li {
+	float: left;
+	list-style-type: none;
+}
+.footer li a {
+	padding: 13px;
+	color: wheat;
+	text-decoration: none;
+	display: block;
+}
+.footer li a:hover {
+	color: white;
+	background-color:#160808;
+}
+@keyframes myAnimation {
+	50% {
+		color: green;
+	}
+	100% {
+		color: blue;
+		}
+}
+.menu {
+	padding: 2px;
+}
+.main {
+	float: left;
+	width:70%;
+}
+.main {
+	float: left;
+	width:70%;
+	max-width: 100%;
+	height: 562px;
+	border:3px solid black;
+	padding-top: 0px;
+}
+.right {
+	float: right;
+	text-align: left;
+	width: 30%;
+	max-width: 100%;
+	height: 562px;
+	background-color: #423B3B;
+}
