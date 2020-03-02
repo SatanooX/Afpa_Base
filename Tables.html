@@ -1,104 +1,159 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Jarditou</title>
-	<link href="Css/Style.css" rel="stylesheet" type="text/css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Tables</title>
+		<link href="Css/css.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body>
+																<!-- Body Container -->
+		<div class="container">
+																		<!--Logo-->
+			<header>
+				<img src="Images/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou" style="width: 20%;">
+				<span id="aside_image_word">Tout le Jardin</span>
+			</header>
+																	<!--Menu List-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+				<a class="navbar-brand" href="#">@SatanoX</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-<body>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Tables.html">Tableau<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Formulaire
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="Form.html">Form 1</a>
+								<a class="dropdown-item" href="Form2.html">Form 2</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Form3.html">Form 3</a>
+							</div>
+						</li>
+					</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+				</div>
+			</nav>
+																	<!--Image Promo-->
+			<img src="Images/promotion.jpg" alt="Jrditou" title="Jarditou" style="width: 100%;"> 
+																		<!--Table-->
+			<div class="table-responsive">
+				<h2 class="text-center p-2 text-secondary">Tableux</h2>
+				<table class="table table-striped table-hover table-bordered">
+					<thead class="thead-dark">
+						<tr>
+							<th>Photos</th>
+							<th>ID</th>
+							<th>Catégorie</th>
+							<th>Libellé</th>
+							<th>Prix</th>
+							<th>Couleur</th>
+						</tr>    
+					</thead>
+				
+					<tbody>
+						<tr>
+						<td><img src="Images/7.jpg" width="45px" alt="Image" alt="7"></td>
+						<td>7</td>
+						<td>Barbecues</td>
+						<td>Aramis</td>
+						<td>110.00€</td>
+						<td>Brun</td>
+						</tr>	 
+					</tbody>
+					<tfoot> 
+						<tr>
+							<td><img src="Images/8.jpg" width="45px" alt="Image"></td>
+							<td>8</td>
+							<td>Barbecues</td>
+							<td>Athos</td>
+							<td>249.00€</td>
+							<td>Noir</td>
+						</tr>
+
+						<tr>
+							<td><img src="Images/11.jpg" width="45px" alt="Image"></td>
+							<td>11</td>
+							<td>Barbecues</td>
+							<td>Clatronic</td>
+							<td>135.99€</td>
+							<td>Chrome</td>
+						</tr>
+						
+						<tr>
+						<td><img src="Images/12.jpg" width="45px" alt="Image"></td>
+						<td>12</td>
+						<td>Barbecues</td>
+						<td>Camping</td>
+						<td>88.00€</td>
+						<td>Noir</td>
+						</tr>
+						
+						<tr>
+							<td><img src="Images/13.jpg" width="45px" alt="Image"></td>
+							<td scope="row">13</td>
+							<td>Barbecues</td>
+							<td>Green</td>
+							<td>49.00€</td>
+							<td>Verte</td>
+						</tr>
+					</tfoot>       
+				</table>
+			</div>
+																		<!--Image flower-->
+				<div class="row">
+					<div class="col-12">
+						<img src="Images/Flower.jpg" alt="Jrditou" title="Jarditou" style="width: 100%;">
+					</div>								
+				</div>									<!--Footer-->
+				<div class="row">
+					<div class="col-12">
+						<footer>
+								<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Mentions légales <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Tables.html">Horaires</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Tables.html">Plan du site</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+							</footer>
+					</div>
+				</div>
+				
+		</div>
 		
-	 <header>
-	<figure style="width: 100%">
-		<img src="Images/jarditou_logo.jpg" alt="Logo Jarditou" width="290" title="Logo Jarditou" class="asde">
-		<span id="aside_image">Ok</span>
-	</figure>
-	</header>
-	
-																		<!-- Menu -->
-																		
-<div id="navbar" >
-	<ul>
-  		<li><a href="index.html">Home</a></li>
-  		<li><a href="Tables.html">Tableau</a></li>
-  		<li><a href="Form.html">Contact</a></li>
-	</ul>
-</div>
-	
-		<img src="Images/promotion.jpg" alt="Jrditou" title="Jarditou" class="promo"> 
-
-        <section>
-            <article>
-                <table>
-                <caption>Tableux</caption>
-                    <thead>
-	                    <tr>
-                        <th> Photos </th>
-                        <th>ID</th>
-                        <th>Category</th>
-                        <th>Libellé</th>
-                        <th>Prix</th>
-                        <th>Couleur</th>
-                        </tr> 
-                    </thead>
-                    <tfoot>
-                    <tr>
-                        <td></td>
-                         <td>7</td>
-                        <td>Barbecues</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                   </tr>
-                    <tr>
-                        <td></td>
-                         <td>8</td>
-                        <td>Barbecues</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                   </tr>
-                    <tr>
-                        <td></td>
-                         <td>11</td>
-                        <td>Barbecues</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                   </tr>
-                    <tr>
-                        <td></td>
-                         <td>12</td>
-                        <td>Barbecues</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                   </tr>
-                    <tr>
-                        <td></td>
-                         <td>13</td>
-                        <td>Barbecues</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                        <td>187 600</td>
-                   </tr>
-                    </tfoot>    	
-                </table> 
-                
-                </article>
-        </section>
-        <footer>
-
-        </footer>
-        <style>
-	
-    table, tr, td, th 
-	
-    { 
-	
-       border: 1px solid #000000;
-	
-    }
-	
-    </style>
-</body>
-</html>
+	<!-- script end -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+  </body>
+  </html>
